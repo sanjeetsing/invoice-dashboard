@@ -1,0 +1,31 @@
+/* Summary.css */
+.summary {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: -20px;
+}
+
+.amount1 {
+  background-color: #b6d3ec;
+  border-radius: 25px;
+  padding: 18px;
+}
+.amount {
+  text-align: center;
+  padding: 18px;
+}
+
+.amount p {
+  font-size: 12px;
+  color: #888;
+}
+
+.amount h3 {
+  font-size: 24px;
+  color: #333;
+}

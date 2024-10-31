@@ -1,0 +1,40 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  height: 80px;
+}
+
+.header .title {
+  margin-left: 48%;
+  font-size: xx-large;
+}
+.header p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.profile-pic {
+  width: 50px; /* Width of the profile picture */
+  height: 50px; /* Height of the profile picture */
+  overflow: hidden; /* Hide overflow for rounded corners */
+  border-radius: 50%; /* Make it circular */
+  border: 2px solid #007bff; /* Border around the profile picture */
+}
+
+.profile-pic img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}

@@ -1,0 +1,82 @@
+/* CreateInvoice.css */
+.create-invoice {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.invoice-header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 15px 15px 0 0;
+}
+
+.back-button {
+  font-size: 20px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.section {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.section p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #3498db;
+  border: 1px dashed #3498db;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.invoice-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-button,
+.share-button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.share-button {
+  background-color: white;
+  color: #3498db;
+  border: 1px solid #3498db;
+}

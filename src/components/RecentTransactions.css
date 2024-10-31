@@ -1,0 +1,54 @@
+/* RecentTransactions.css */
+.recent-transactions {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recent-transactions .header2 .title2 {
+  margin-left: 9%;
+}
+.recent-transactions .header2 .title3 {
+  margin-right: 10%;
+  margin-top: 14px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  margin-left: 8%;
+  margin-right: 12%;
+  border-radius: 10px;
+  padding: 17px;
+  box-shadow: 0px 0px 10px 6px #efefef;
+}
+
+.transaction p {
+  font-size: 14px;
+  color: #333;
+}
+
+.due {
+  font-size: 12px;
+  color: #888;
+}
+
+.status {
+  font-size: 12px;
+  color: #3498db;
+  border: 1px solid #3498db;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
